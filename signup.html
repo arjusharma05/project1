@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+    body {
+  background-color: #344a72;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+</style>
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="" />
+        <label>Roll No.</label>
+        <input type="number" placeholder=""/>
+        <label>Choose your course:</label>
+        <select name="course" id="course">
+          <option value="bca">BCA</option>
+          <option value="b.com">B.Com</option>
+          <option value="b.sc">B.Sc</option>
+          <option value="bba">BBA</option>
+          <option value="b.tech">B.Tech</option>
+          <option value="ba">BA</option>
+          <option value="b.pharma">B.Pharma</option>
+          <option value="llb">LLB</option>
+          <option value="mca">MCA</option>
+          <option value="m.com">M.Com</option>
+          <option value="m.sc">M.Sc</option>
+          <option value="mba">MBA</option>
+          <option value="m.tech">M.Tech</option>
+          <option value="ma">MA</option>
+          <option value="m.pharma">M.Pharma</option>
+          <option value="other">Other</option>
+        </select>
+        <label>Choose your semester:</label>
+        <select name="semester" id="semester">
+          <option value="first semester">First Semester</option>
+          <option value="second semester">Second Semester</option>
+          <option value="third semester">Third Semester</option>
+          <option value="fourth semester">Fourth Semester</option>
+          <option value="fifth semester">Fifth Semester</option>
+          <option value="sixth semester">Sixth Semester</option>
+          <option value="seventh semester">Seventh Semester</option>
+          <option value="eighth semester">Eighth Semester</option>
+          <option value="ninth semester">Ninth Semester</option>
+          <option value="tenth semester">Tenth Semester</option>
+        </select>
+        <label>Email</label>
+        <input type="email" placeholder="" />
+        <label>Confirm Email</label>
+        <input type="email" placeholder="" />
+        <label>Password</label>
+        <input type="password" placeholder="" />
+        <label>Confirm Password</label>
+        <input type="password" placeholder="" />
+        <input type="button" value="Submit" />
+      <closeform></closeform></form>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>
